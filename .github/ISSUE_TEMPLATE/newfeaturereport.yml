@@ -14,33 +14,33 @@ body:
       placeholder: ex. Sertha Taweewattana
     validations:
       required: false
-- type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: dropdown
-    id: type-of-request
-    attributes:
-      label: Type of request?
-      description: Select the type of your request
-      options:
-        - New Feature
-      default: 0
-    validations:
-      required: false
-  - type: dropdown
-    id: what-os
-    attributes:
-      label: What is the OS which you want to suggest?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: What are the details of your suggestion?
-      description: Explain what you want
-      render: shell
+  - type: markdown
+      attributes:
+        value: |
+          Thanks for taking the time to fill out this bug report!
+    - type: dropdown
+      id: type-of-request
+      attributes:
+        label: Type of request?
+        description: Select the type of your request
+        options:
+          - New Feature
+        default: 0
+      validations:
+        required: false
+    - type: dropdown
+      id: what-os
+      attributes:
+        label: What is the OS which you want to suggest?
+        multiple: true
+        options:
+          - Firefox
+          - Chrome
+          - Safari
+          - Microsoft Edge
+    - type: textarea
+      id: logs
+      attributes:
+        label: What are the details of your suggestion?
+        description: Explain what you want
+        render: shell
