@@ -14,13 +14,10 @@ body:
       placeholder: ex. Sertha Taweewattana
     validations:
       required: false
-
 - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-
-
   - type: dropdown
     id: type-of-request
     attributes:
@@ -31,9 +28,6 @@ body:
       default: 0
     validations:
       required: false
-
-
-
   - type: dropdown
     id: what-os
     attributes:
@@ -44,8 +38,6 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-
-
   - type: textarea
     id: logs
     attributes:
