@@ -1,6 +1,6 @@
 name: NewFeatureReport
 description: File a bug report.
-title: "[Feature]: "
+title: "Feature: "
 labels: ["Feature", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
@@ -33,10 +33,8 @@ body:
       label: What is the OS which you want to suggest?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - MS-Windows
+        _ Mac OS
   - type: textarea
     id: logs
     attributes:
