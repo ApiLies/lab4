@@ -25,8 +25,6 @@ body:
       description: Select the type of your request
       options:
         - New Feature
-    validations:
-      required: false
   - type: dropdown
     id: what-os
     attributes:
@@ -34,7 +32,7 @@ body:
       multiple: true
       options:
         - MS-Windows
-        _ Mac OS
+        - Mac OS
   - type: textarea
     id: logs
     attributes:
